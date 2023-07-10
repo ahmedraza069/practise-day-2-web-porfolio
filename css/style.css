@@ -45,7 +45,7 @@ display: flex;
     right: 0;
 
 }
-.banner_text .btn-primary{
+ .btn-primary{
     background-color: #FFF;
     color: #005FAC;
     font-family: 18px;
@@ -111,4 +111,51 @@ display: flex;
 }
 /* plan part end */
 
-/*  */
+/* banner and image part start */
+.back_image{
+    background-image: url('../images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 250px;
+    margin: 40px 220px;
+    background-position: center;
+    
+}
+footer{
+    background-color: #151414;
+    padding: 100px 0px;
+    margin-top: 80px;
+}
+.footer_part{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 220px;
+    gap: 300px;
+
+}
+.btn{
+    background-color: #005FAC;
+    color: white;
+}
+.footer_part h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin: 25px 0px;
+}
+.footer_part p{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+.footer_right input{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #151414;
+    
+}
+.footer_right button{
+    margin: 20px 0px;
+}
