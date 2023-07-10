@@ -113,12 +113,10 @@ display: flex;
 
 /* banner and image part start */
 .back_image{
-    background-image: url('../images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
+    background: url('../images/gradient3.png') left center no-repeat, url('../images/watch.png') right center no-repeat;
     height: 250px;
     margin: 40px 220px;
-    background-position: center;
+    padding: 65px;
     
 }
 footer{
